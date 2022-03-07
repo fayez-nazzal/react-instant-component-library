@@ -1,0 +1,10 @@
+$primary: #ff3434;
+$secondary: #fbb040;
+
+.title {
+  color: $primary;
+
+  span {
+    color: $secondary;
+  }
+}
