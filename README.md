@@ -8,7 +8,7 @@ A boilerplate for a component library using rollup, typescript, storybook, sass,
  - Jest & React-testing-library
  - Tree Shakable
  - *Base bundle size of 192bytes:
-	[Check base bundle size on Bundlephobia](Bundlephobia)
+	[Check base bundle size on Bundlephobia](https://bundlephobia.com/package/react-rollup-component-library@1.0.1)
  - Sass support
  - Pre-configured Prettier, Eslint and style-lint 
  - Pre-commit hooks - automatically check linting errors before every commit 
