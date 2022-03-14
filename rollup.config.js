@@ -7,6 +7,8 @@ import externals from "rollup-plugin-node-externals";
 import babel from "@rollup/plugin-babel";
 import del from "rollup-plugin-delete";
 import { terser } from "rollup-plugin-terser";
+import url from "rollup-plugin-url";
+import svgr from "@svgr/rollup";
 
 const packageJson = require("./package.json");
 
@@ -24,6 +26,7 @@ export default {
       sourcemap: true,
     },
   ],
+
   plugins: [
     del({ targets: "build/*" }),
     // devDependenciesnd and peerDependencies wont be included in the bundle
@@ -40,5 +43,7 @@ export default {
     postcss(),
     terser(),
     analyze(),
+    url(),
+    svgr(),
   ],
 };
