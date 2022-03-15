@@ -14,6 +14,7 @@ A boilerplate for a component library using rollup, typescript, storybook, sass,
  - Pre-configured Prettier, Eslint and style-lint 
  - Pre-commit hooks - automatically check linting errors before every commit 
  - Bundle analyser included ( on build )
+ - Configurable SVG support using SVGR
 
 *The base bundle size is calculated using rollup-plugin-analyzer after excluding ExampleComponent.
 Cancel changes
