@@ -16,4 +16,3 @@ A boilerplate for a component library using rollup, typescript, storybook, sass,
  - Bundle analyser included ( on build )
 
 *The base bundle size is calculated using rollup-plugin-analyzer after excluding ExampleComponent.
-Cancel changes
