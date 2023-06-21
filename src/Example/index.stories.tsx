@@ -1,29 +1,14 @@
-import { Story } from "@storybook/react";
 import React from "react";
 import ExampleComponent from ".";
-import { ExampleComponentProps } from "./index.types";
-import { ReactComponent as CoffeeIcon } from "./coffee.svg";
+import "./index.css";
 
 export default {
-  title: "ExampleComponent",
+  title: "Example Component!",
 };
 
-const ExampleComponentStory: Story<ExampleComponentProps> = (args) => (
-  <ExampleComponent {...args} />
-);
+const ExampleComponentStory = (args) => <ExampleComponent {...args} />;
 
-export const EyesMoji = ExampleComponentStory.bind({});
-EyesMoji.args = {
+export const Example = ExampleComponentStory.bind({});
+Example.args = {
   emoji: "👀",
-};
-
-export const LikeMoji = ExampleComponentStory.bind({});
-LikeMoji.args = {
-  emoji: "👍",
-};
-
-export const WithCoffeeIcon = ExampleComponentStory.bind({});
-WithCoffeeIcon.args = {
-  emoji: "☕",
-  icon: <CoffeeIcon style={{ width: 32, height: 32 }} />,
 };
