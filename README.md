@@ -1,6 +1,6 @@
 # react-rollup-component-library
 
-A boilerplate for a react component library using rollup, typescript, storybook, sass, jest, eslint, and prettier.
+An instant boilerplate for skaffolding a react component library using typescript, storybook, sass, jest, eslint, and prettier.
 
 ## Features
 
