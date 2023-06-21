@@ -17,8 +17,8 @@
     "prepublishOnly": "npm run build",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "prettier": "prettier --write src/**/*.{js,tsx,scss}",
-    "eslint": "eslint ./**/*.{js,tsx,scss}",
+    "prettier": "prettier --write src/**/*.{js,tsx}",
+    "eslint": "eslint ./**/*.{js,tsx}",
     "lint": "npm run test && npm run prettier && npm run eslint"
   },
   "peerDependencies": {},

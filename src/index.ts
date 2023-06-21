@@ -3,7 +3,6 @@
         - ExampleComponent/
         -- index.tsx
         -- index.types.ts
-        -- index.styles.scss
         -- index.stories.tsx
         -- index.test.tsx or index.spec.tsx
 */
