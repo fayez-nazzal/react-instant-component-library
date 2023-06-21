@@ -1,5 +1,5 @@
 {
-  "name": "react-rollup-component-library",
+  "name": "react-instant-component-library",
   "version": "1.0.0",
   "description": "A boilerplate for a component library using rollup, typescript, storybook, sass, jest, eslint, prettier.",
   "license": "MIT",
