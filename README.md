@@ -1,19 +1,22 @@
 # react-instant-component-library
 
-An instant boilerplate for skaffolding a react component library using typescript, storybook, sass, jest, eslint, and prettier.
+An instant boilerplate for building a react component library using Typescript, PandaCSS & Storybook.
 
 ## Features
 
 - Bundled using Rollup
 - Typescript
 - Storybook
-- Jest & React-testing-library
 - Tree Shakable
-- \*Base bundle size of 192 bytes:
-  [Check base bundle size on Bundlephobia](https://bundlephobia.com/package/react-instant-component-library@1.0.1)
-- Sass support
-- Pre-configured Prettier, Eslint and style-lint
-- Pre-commit hooks - automatically check linting errors before every commit
-- Bundle analyser included ( on build )
+- ESM & CJS Bundles
+- Pre-configured Prettier, Eslint
+- Bundle analyser included ( on build for both bundles )
 
-\*The base bundle size is calculated using rollup-plugin-analyzer after excluding ExampleComponent.
+## Getting Started
+
+    I. Clone the repo.
+    II. "pnpm i" to install dependencies.
+    III. "pnpm dev" while building with storybook.
+    VI. when done, build it using "pnpm build".
+
+Enjoy!

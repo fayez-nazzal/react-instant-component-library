@@ -67,9 +67,6 @@
     "url-loader": "^4.1.1",
     "webpack": "5.88.0"
   },
-  "pre-commit": [
-    "lint"
-  ],
   "dependencies": {
     "@storybook/cli": "^7.1.0-alpha.38"
   }
